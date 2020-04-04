@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="SeleniumText" tests="2" started="2" failures="0" errors="2" ignored="1">
+  <testsuite name="com.csg.testCucu.Runner.Runner" time="0.008">
+    <testsuite name="Feature: Testing Google Homepage" time="0.008">
+      <testsuite name="Scenario: Testing Search Functionality of Google Homepage" time="0.006" incomplete="true">
+        <skipped/>
+        <testcase name="Given User opens &quot;https://www.google.com&quot; url" classname="Scenario: Testing Search Functionality of Google Homepage" time="0.004">
+          <error>org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'UPASANA-PC', ip: '192.168.1.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C2A113+1548563]
+	Ordinal0 [0x00BADDA1+1039777]
+	Ordinal0 [0x00B2E485+517253]
+	Ordinal0 [0x00ABCB98+52120]
+	Ordinal0 [0x00ADB797+178071]
+	Ordinal0 [0x00ADB59D+177565]
+	Ordinal0 [0x00AD95FB+169467]
+	Ordinal0 [0x00AC160A+71178]
+	Ordinal0 [0x00AC2690+75408]
+	Ordinal0 [0x00AC2629+75305]
+	Ordinal0 [0x00BC71B7+1143223]
+	GetHandleVerifier [0x00CC2B46+507814]
+	GetHandleVerifier [0x00CC2864+507076]
+	GetHandleVerifier [0x00CC9F47+537511]
+	GetHandleVerifier [0x00CC3402+510050]
+	Ordinal0 [0x00BBF29C+1110684]
+	Ordinal0 [0x00BC938B+1151883]
+	Ordinal0 [0x00BC94F3+1152243]
+	Ordinal0 [0x00BC83F5+1147893]
+	BaseThreadInitThunk [0x75940419+25]
+	RtlGetAppContainerNamedObjectPath [0x770E662D+237]
+	RtlGetAppContainerNamedObjectPath [0x770E65FD+189]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at com.csg.testCucu.Cucu.Steps.openGooglePage(Steps.java:14)&#13;
+	at ✽.Given User opens "https://www.google.com" url(google.feature:3)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User enters &quot;Selenium&quot;" classname="Scenario: Testing Search Functionality of Google Homepage" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

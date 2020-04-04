@@ -1,0 +1,16 @@
+
+public class NineTable {
+
+	public static void main(String[] args) {
+int a=9;
+int x=1;
+do {
+	int z=a*x;
+	System.out.println(z);
+	x++;
+}while(x<=10);	
+	}
+	
+
+}
+	

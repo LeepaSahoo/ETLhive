@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ETLhive.www.home.Register&apos; to &apos;TC_01_UserRegisteration&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumText&apos;&#x0D;&#x0A;- Original element: &apos;com.ETLhive.www.home.Register&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ETLhive.www.home.TC_01_UserRegisteration&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Register&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;com.ETLhive.www.home{Register.java[Register" matchStrategy="1" name="TC_01_UserRegisteration" qualified="false" references="true" similarDeclarations="false" stamp="1583644441096" textual="false" version="1.0"/>
+</session>
